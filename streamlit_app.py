@@ -1,11 +1,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+
 import time as sleep_time
 
 st.set_page_config(page_title="Vehicle Dynamics Analyzer", layout="wide", page_icon="🚗")
